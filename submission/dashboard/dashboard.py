@@ -50,7 +50,7 @@ def sidebar(df):
     max_date = df["dteday"].max()
 
     with st.sidebar:
-        st.image("bike-sharing.png")
+        st.image("https://github.com/alfigrace/Dicoding-BADDP-Proyek-Analisis-Data/assets/44216877/00095f52-1ab9-4f55-87d3-fa7cb5c0b772")
 
         def on_change():
             st.session_state.date = date
@@ -193,7 +193,7 @@ if __name__ == "__main__":
 
     st.header("Bike Sharing Dashboard :sparkles:")
 
-    day_df = pd.read_csv("main_data.csv")
+    day_df = pd.read_csv("https://raw.githubusercontent.com/alfigrace/Dicoding-BADDP-Proyek-Analisis-Data/main/submission/dashboard/main_data.csv")
 
     date = sidebar(day_df)
     if(len(date) == 2):
