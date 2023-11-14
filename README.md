@@ -22,5 +22,5 @@ cd 'Dicoding-BADDP-Proyek-Analisis-Data\submission\dashboard'
 ```
 4. Run streamlit
 ```
-streamlit run dahsboard.py
+streamlit run dashboard.py
 ```
